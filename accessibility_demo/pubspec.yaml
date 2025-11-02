@@ -1,0 +1,51 @@
+name: accessibility_demo
+description: "Budapest Weather App - Clean Architecture with Accessibility and Localization"
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Localization (ELÖL!)
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  
+  # State Management
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.7
+  
+  # Dependency Injection
+  get_it: ^8.0.3
+  injectable: ^2.5.0
+  
+  # Networking
+  dio: ^5.7.0
+  pretty_dio_logger: ^1.4.0
+  connectivity_plus: ^6.1.5
+  
+  # Local Storage
+  shared_preferences: ^2.3.5
+  
+  # Functional Programming
+  dartz: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  
+  # Code Generation
+  build_runner: ^2.4.14
+  injectable_generator: ^2.6.2
+  
+  # Testing
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  generate: true  # Localization code generation

@@ -1,0 +1,169 @@
+{
+  "@@locale": "hu",
+  
+  "appTitle": "Budapest Időjárás",
+  "@appTitle": {
+    "description": "Az alkalmazás címe"
+  },
+  
+  "errorTitle": "Hiba",
+  "@errorTitle": {
+    "description": "Hiba címsor"
+  },
+  
+  "cachedDataLabel": "Mentett adatok",
+  "@cachedDataLabel": {
+    "description": "Cache-ből betöltött adatok jelzése"
+  },
+  
+  "refreshButton": "Frissítés",
+  "@refreshButton": {
+    "description": "Frissítés gomb szövege"
+  },
+  
+  "refreshingButton": "Frissítés...",
+  "@refreshingButton": {
+    "description": "Frissítés folyamatban gomb szövege"
+  },
+  
+  "timestampLabel": "Időpont",
+  "@timestampLabel": {
+    "description": "Adat letöltési/cache időpontjának címkéje"
+  },
+  
+  "temperatureLabel": "Hőmérséklet",
+  "@temperatureLabel": {
+    "description": "Hőmérséklet címke"
+  },
+  
+  "minMaxLabel": "Min/Max",
+  "@minMaxLabel": {
+    "description": "Minimum és maximum hőmérséklet címke"
+  },
+  
+  "weatherLabel": "Időjárás",
+  "@weatherLabel": {
+    "description": "Időjárás leírás címke"
+  },
+  
+  "humidityLabel": "Páratartalom",
+  "@humidityLabel": {
+    "description": "Páratartalom címke"
+  },
+  
+  "windSpeedLabel": "Szélsebesség",
+  "@windSpeedLabel": {
+    "description": "Szélsebesség címke"
+  },
+  
+  "precipitationLabel": "Csapadék valószínűség",
+  "@precipitationLabel": {
+    "description": "Csapadék valószínűség címke"
+  },
+  
+  "errorServerFailure": "Szerverhiba: {error}",
+  "@errorServerFailure": {
+    "description": "Szerverhiba üzenet paraméterrel",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "errorNetworkFailure": "Nincs internetkapcsolat",
+  "@errorNetworkFailure": {
+    "description": "Hálózati hiba üzenet"
+  },
+  
+  "errorCacheFailure": "Nincs gyorsítótárazott adat",
+  "@errorCacheFailure": {
+    "description": "Cache hiba üzenet"
+  },
+  
+  "weatherClearSky": "Tiszta ég",
+  "@weatherClearSky": {
+    "description": "WMO kód 0"
+  },
+  
+  "weatherMainlyClear": "Túlnyomóan tiszta",
+  "@weatherMainlyClear": {
+    "description": "WMO kód 1"
+  },
+  
+  "weatherPartlyCloudy": "Részben felhős",
+  "@weatherPartlyCloudy": {
+    "description": "WMO kód 2"
+  },
+  
+  "weatherCloudy": "Felhős",
+  "@weatherCloudy": {
+    "description": "WMO kód 3"
+  },
+  
+  "weatherFog": "Köd",
+  "@weatherFog": {
+    "description": "WMO kód 45, 48"
+  },
+  
+  "weatherDrizzle": "Szitálás",
+  "@weatherDrizzle": {
+    "description": "WMO kód 51, 53, 55"
+  },
+  
+  "weatherFreezingDrizzle": "Fagyos szitálás",
+  "@weatherFreezingDrizzle": {
+    "description": "WMO kód 56, 57"
+  },
+  
+  "weatherRain": "Eső",
+  "@weatherRain": {
+    "description": "WMO kód 61, 63, 65"
+  },
+  
+  "weatherFreezingRain": "Fagyos eső",
+  "@weatherFreezingRain": {
+    "description": "WMO kód 66, 67"
+  },
+  
+  "weatherSnow": "Hó",
+  "@weatherSnow": {
+    "description": "WMO kód 71, 73, 75, 77, 85, 86"
+  },
+  
+  "weatherRainShowers": "Záporok",
+  "@weatherRainShowers": {
+    "description": "WMO kód 80, 81, 82"
+  },
+  
+  "weatherThunderstorm": "Zivatar",
+  "@weatherThunderstorm": {
+    "description": "WMO kód 95, 96, 99"
+  },
+  
+  "weatherUnknown": "Ismeretlen",
+  "@weatherUnknown": {
+    "description": "Ismeretlen időjárás kód"
+  },
+  
+  "monthJanuary": "január",
+  "monthFebruary": "február",
+  "monthMarch": "március",
+  "monthApril": "április",
+  "monthMay": "május",
+  "monthJune": "június",
+  "monthJuly": "július",
+  "monthAugust": "augusztus",
+  "monthSeptember": "szeptember",
+  "monthOctober": "október",
+  "monthNovember": "november",
+  "monthDecember": "december",
+  
+  "dayMonday": "hétfő",
+  "dayTuesday": "kedd",
+  "dayWednesday": "szerda",
+  "dayThursday": "csütörtök",
+  "dayFriday": "péntek",
+  "daySaturday": "szombat",
+  "daySunday": "vasárnap"
+}
